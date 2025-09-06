@@ -1,4 +1,3 @@
 import '../css/main.css';
-
-console.log('Hello World!');
+console.log('🔥 ZhuyunMA', new Date().toISOString());
 
