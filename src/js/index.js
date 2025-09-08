@@ -3,6 +3,9 @@ import '../css/main.css';
 console.log("🔥 ZhuyunMa site loaded at", new Date().toISOString());
 
 window.changeBg = function (color) {
-  document.body.style.backgroundColor = color;
-  console.log("✅ Background changed to:", color);
+  const card = document.querySelector('.card'); 
+  if (card) {
+    card.style.backgroundColor = color; 
+    console.log("✅ Card background changed to:", color);
+  }
 };
