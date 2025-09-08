@@ -1,7 +1,8 @@
 import '../css/main.css';
-console.log('🔥 ZhuyunMA', new Date().toISOString());
-console.log("✅ Loaded src/js/index.js");
 
-function changeBg(color) {
-    document.body.style.backgroundColor = color;
-}
+console.log("🔥 ZhuyunMa site loaded at", new Date().toISOString());
+
+window.changeBg = function (color) {
+  document.body.style.backgroundColor = color;
+  console.log("✅ Background changed to:", color);
+};
