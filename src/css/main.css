@@ -48,3 +48,20 @@ p {
   line-height: 1.6;
   margin: 15px 0;
 }
+
+.buttons {
+    margin-top: 20px;
+}
+
+.buttons button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    opacity: 0.8;
+}
